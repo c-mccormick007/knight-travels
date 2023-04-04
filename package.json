@@ -1,0 +1,29 @@
+{
+  "name": "knight-travels",
+  "version": "1.0.0",
+  "description": "KNIGHT TO C3!!!!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack serve --open",
+    "build": "webpack",
+    "deploy": "webpack --mode production && gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/c-mccormick007/knight-travels.git"
+  },
+  "homepage": "https://github.com/c-mccormick007/knight-travels",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "css-loader": "^6.7.3",
+    "gh-pages": "^5.0.0",
+    "html-webpack-plugin": "^5.5.0",
+    "lodash": "^4.17.21",
+    "style-loader": "^3.3.2",
+    "webpack": "^5.77.0",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.13.2"
+  }
+}
